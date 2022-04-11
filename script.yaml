@@ -1,0 +1,8 @@
+---
+- name: Run test shell script
+  hosts: all
+
+  tasks:
+  - name: Run test shell script
+    shell: ./eg.sh
+    register: output
