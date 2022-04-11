@@ -4,5 +4,4 @@
 
   tasks:
   - name: Run script on failure
-    shell: ./eg.sh >> /error_logs
-    ignore_errors: yes
+    shell: ./egf.sh
