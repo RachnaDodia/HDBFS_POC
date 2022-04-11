@@ -6,3 +6,4 @@
   - name: Run test shell script
     shell: ./eg.sh
     register: output
+    failed_when: output.rc != 0 
