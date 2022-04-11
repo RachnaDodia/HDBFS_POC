@@ -1,0 +1,7 @@
+---
+- name: Run script on success
+  hosts: all
+
+  tasks:
+  - name: Run script on success
+    shell: ./egs.sh
