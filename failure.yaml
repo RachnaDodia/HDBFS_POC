@@ -1,0 +1,7 @@
+---
+- name: Run script on failure
+  hosts: all
+
+  tasks:
+  - name: Run script on failure
+    shell: ./egf.sh
